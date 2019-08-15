@@ -1,0 +1,89 @@
+
+#viewMap
+{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+#miCanvas
+{
+  position: absolute;
+  bottom: 110px;
+  left: 110px;
+  border: solid;
+}
+
+.sassy-theme .esri-widget,
+.sassy-theme .esri-widget--button,
+.sassy-theme .esri-menu,
+.sassy-theme .esri-popup__main-container,
+.sassy-theme .esri-popup .esri-popup__pointer-direction,
+.sassy-theme .esri-popup .esri-popup__button,
+.sassy-theme .esri-button,
+.sassy-theme .esri-input,
+.sassy-theme .esri-widget a {
+background-color: #c7f3ff;
+color: #000000;
+}
+
+.sassy-theme .esri-feature_media-item imgenes {
+  width: 180%;
+  height: 200%;
+  text-align: left;
+}
+
+.b {
+font-weight:0px;
+font-size: 20px;
+padding-top:0px;
+margin-top: 200px;
+padding-bottom:0px;
+background-transparencia;
+border-color: #18e17b;
+border-radius:0px;
+margin-left: 7px;
+
+}
+
+#footer {
+  text-align: center;
+  padding-top: 1em;
+}
+#footer #sociales .icon-facebook {
+  background: #aaa;
+  border-radius: 10%;
+  padding: 1em;
+  color: White;
+  margin: 1em;
+  transition: all ease 0.5s;
+}
+#footer #sociales .icon-facebook:hover {
+  background: #3b5998;
+}
+#footer #sociales .icon-twitter {
+  background: #aaa;
+  border-radius: 10%;
+  padding: 1em;
+  color: White;
+  margin: 1em;
+  transition: all ease 0.5s;
+}
+#footer #sociales .icon-twitter:hover {
+  background: #55acee;
+}
+#footer #sociales .icon-youtube {
+  background: #aaa;
+  border-radius: 10%;
+  padding: 1em;
+  color: White;
+  margin: 1em;
+  transition: all ease 0.5s;
+}
+#footer #sociales .icon-youtube:hover {
+  background: #e52d27;
+}
